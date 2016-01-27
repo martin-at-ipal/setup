@@ -16,7 +16,10 @@ wget -qO- github.com/hamdi-aloulou/setup/raw/master/setup.sh | sh -s <your_usern
 zsh
 wget -qO- github.com/hamdi-aloulou/setup/raw/master/configure_zsh.sh | zsh
 # you can now exit and reconnect as <your_username> with the same key
+
 ```
+Install Menlo-Powerline on your local machine
+
 Run the following for ubismart only
 ```sh
 wget -qO- github.com/hamdi-aloulou/setup/raw/master/ubi_setup.sh | sh
