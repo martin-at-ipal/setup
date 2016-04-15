@@ -11,9 +11,9 @@ done
 exec ssh-agent zsh
 
 # config for efficient git
-git config --global user.name "Hamdi Aloulou"
-git config --global user.email "hamdi.aloulou@mines-telecom.fr"
-ssh-keygen -t rsa -N "" -C "hamdi.aloulou@mines-telecom.fr" -f ~/.ssh/id_rsa
+git config --global user.name "Firas Kaddachi"
+git config --global user.email "firas.kaddachi@gmail.com"
+ssh-keygen -t rsa -N "" -C "firas.kaddachi@gmail.com" -f ~/.ssh/id_rsa
 ssh-add .ssh/id_rsa
 echo "You should copy the next line into a new ssh key on github  https://github.com/settings/ssh)."
 cat ~/.ssh/id_rsa.pub
