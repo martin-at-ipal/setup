@@ -1,4 +1,7 @@
 #!/bin/zsh
+
+# takes two params: $1 git user.name; $2 git user.email
+
 # zsh config and dotfiles
 setopt EXTENDED_GLOB
 ln -s ~/dotfiles/.zprezto/ ~/
@@ -11,13 +14,10 @@ done
 exec ssh-agent zsh
 
 # config for efficient git
-echo -en "GIT user.name: "
-read $GIT_USER_NAME
-git config --global user.name "$GIT_USER_NAME"
+git config --global user.name "$1"
 echo -en "GIT user.email: "
-read $GIT_USER_EMAIL
-git config --global user.email "$GIT_USER_EMAIL"
-ssh-keygen -t rsa -N "" -C "$GIT_USER_EMAIL" -f ~/.ssh/id_rsa
+git config --global user.email "$2"
+ssh-keygen -t rsa -N "" -C "git-$2" -f ~/.ssh/id_rsa
 ssh-add ~/.ssh/id_rsa
 echo "You should copy the next line into a new ssh key on github  https://github.com/settings/ssh)."
 cat ~/.ssh/id_rsa.pub
