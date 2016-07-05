@@ -6,15 +6,15 @@ follows:
 
 ```sh
 # to start, please ssh login as root with your key
-wget -qO- github.com/martin-at-ipal/setup/raw/master/update_locales.sh | sh
+wget -qO- https://github.com/martin-at-ipal/setup/raw/master/update_locales.sh | sh
 exit
 # please ssh login as root again
-wget -qO- github.com/martin-at-ipal/setup/raw/master/create_user.sh | sh -s <your_username>
+wget -qO- https://github.com/martin-at-ipal/setup/raw/master/create_user.sh | sh -s <your_username>
 su <your_username>
 cd
-wget -qO- github.com/martin-at-ipal/setup/raw/master/setup.sh | sh -s <your_username>
+wget -qO- https://github.com/martin-at-ipal/setup/raw/master/setup.sh | sh -s <your_username>
 zsh
-wget -qO- github.com/martin-at-ipal/setup/raw/master/configure_zsh.sh | zsh -s "<your_git_user.name>" "<your_git_user.email>"
+wget -qO- https://github.com/martin-at-ipal/setup/raw/master/configure_zsh.sh | zsh -s "<your_git_user.name>" "<your_git_user.email>"
 # you can now exit and reconnect as <your_username> with the same key
 
 ```
@@ -22,7 +22,7 @@ Download and install Menlo-Powerline font on your local machine (for correct pro
 
 Run the following for ubismart only
 ```sh
-wget -qO- github.com/martin-at-ipal/setup/raw/master/ubi_setup.sh | sh
+wget -qO- https://github.com/martin-at-ipal/setup/raw/master/ubi_setup.sh | sh
 ```
 
 ###Notes: 
