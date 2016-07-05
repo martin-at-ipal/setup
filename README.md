@@ -14,7 +14,7 @@ su <your_username>
 cd
 wget -qO- github.com/martin-at-ipal/setup/raw/master/setup.sh | sh -s <your_username>
 zsh
-wget -qO- github.com/martin-at-ipal/setup/raw/master/configure_zsh.sh | zsh
+wget -qO- github.com/martin-at-ipal/setup/raw/master/configure_zsh.sh | zsh -s "<your_git_user.name>" "<your_git_user.email>"
 # you can now exit and reconnect as <your_username> with the same key
 
 ```
