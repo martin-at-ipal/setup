@@ -29,7 +29,7 @@ wget -qO- github.com/martin-at-ipal/setup/raw/master/ubi_setup.sh | sh
 * You will probably need to exit and reconnect to apply the new shell profile.
 * It may also be necessary to install flycheck from emacs package manager.
 
-See also http://github.com/martin-at-ipal/dotfiles and
+See also https://github.com/hamdi-aloulou/dotfiles and
 [Startup Engineering Video Lectures 4a/4b](https://class.coursera.org/startup-001/lecture/index)
 for more details.
 
