@@ -18,7 +18,7 @@ wget -qO- github.com/martin-at-ipal/setup/raw/master/configure_zsh.sh | zsh
 # you can now exit and reconnect as <your_username> with the same key
 
 ```
-Install Menlo-Powerline on your local machine: https://github.com/thlorenz/dotfiles/commit/d7de2f6ed73136fc9cedfd89ae5577253286dd2d
+Download and install Menlo-Powerline font on your local machine (for correct prompt display in zsh): [Menlo-Powerline.otf](https://github.com/thlorenz/dotfiles/blob/master/fonts/Menlo-Powerline.otf?raw=true)
 
 Run the following for ubismart only
 ```sh
