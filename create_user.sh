@@ -21,7 +21,9 @@ if [ "$?" -eq "0" ]; then
     cp $TMP $NOPWD
 fi
 rm $TMP
-sudo service sudo restart
+
+# this is not valid anymore
+#sudo service sudo restart
 
 # authorize passwordless ssh login
 mkdir /home/$USER/.ssh/
